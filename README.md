@@ -1,12 +1,6 @@
-<h1 align="center">
- <br>
-  <a href="https://github.com/peterhanania"><img src="https://pogy.xyz/thumb.png"></a>
-  <br>
-  Pogy the Discord Bot
-  <br>
-</h1>
 
-<h3 align=center>A fully customizable bot built with 183 commands, 12 categories and a dashboard!</h3>
+
+<h3 align=center>A fully customizable bot built with 197 commands, 12 categories and a dashboard!</h3>
 
 
 <div align=center>
