@@ -9,7 +9,7 @@ module.exports = class extends Command {
       super(...args, {
         name: 'lockdown',
         aliases: [ 'lockserver'],
-        description: 'lock all rooms server',
+        description: 'lock all Channels in the server',
         category: 'Moderation',
         usage: 'lockdown [channel] ',
         examples: ['lockdown [channel]', 'lockdown #general'],
