@@ -35,7 +35,7 @@
 
 ## About
 
-Pogy is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://thisisbot.tk) link to invite the official Bot! Also, you can join the official [ThisIsBot's Support Server](https://discord.gg/Vg3zzuyr98) for assistance.
+ThisIsBot is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://thisisbot.tk) link to invite the official Bot! Also, you can join the official [ThisIsBot's Support Server](https://discord.gg/Vg3zzuyr98) for assistance.
 
 If you liked this repository, feel free to leave a star ⭐ and follow me, it actually means a lot.
 
@@ -56,7 +56,7 @@ If you liked this repository, feel free to leave a star ⭐ and follow me, it ac
   * **reaction roles:** Reaction roles
   * **tickets:** Guild tickets for support 
 
-Pogy even has the following features on the website
+ThisIsBot even has the following features on the website
 
   * **Ticket Transcripts** + **Application Transcripts**
   * **Contact & Report** page
@@ -74,7 +74,7 @@ Pogy even has the following features on the website
 
 First clone the repo:
 ```
-git clone https://github.com/peterhanania/Pogy.git
+git clone https://github.com/hackergod8696/thisisbot-src.git
 ```
 After cloning, run an
 ```
@@ -96,9 +96,7 @@ Your `config.json` should look like this:
   "prefix":"p!", //prefix
   "arc":"",//arc.io source (optional)
   "youtube_key":"", //youtube api key from https://console.cloud.google.com/apis/
-  "cat_api_key":"",// https://thecatapi.com/signup
-  "webhook_id":"", //read config.json
-  "webhook_url":"" //read config.json
+  "cat_api_key":"" // https://thecatapi.com/signup
 }
 
 ```
@@ -147,18 +145,15 @@ You can launch the bot with `node shard.js`
 - You can change the colors in `data/colors.js`
 
 
-
 ## License
 
 Released under the [Apache License](http://www.apache.org/licenses/LICENSE-2.0) license.
 
-## Donate
-
-You can donate Pogy and make it stronger than ever [by clicking here](https://paypal.me/pogybot)!
 
 ## Credits
 
-* **Peter Hanania** - *head developer* - [github](https://github.com/peterhanania)
+* **ThisIsRico** - *Owner* - [github](https://github.com/hackergod8696)
+* **Peter Hanania** - *head developer/ Have made the Bot Base* - [github](https://github.com/peterhanania)
 * **Wlegit** - *developer*  - [github](https://github.com/wlegit)
 * **Slayer** - *Contributor - Command Handler base* [github](https://github.com/GhostSlayer)
 * **Ace** - *Contributor - Embed builder* [github](https://github.com/Glitchii)
