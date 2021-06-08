@@ -4,7 +4,10 @@ Check my Website for Discord and more: https://thisisrico.de/
 
 ThisIsBot invite/website: https://thisisbot.tk/
 
+Prefix:?
+
 Idk i post the src in 6-48 Hours
+
 
 # ThisIsBot Funktions
 
@@ -23,7 +26,7 @@ Idk i post the src in 6-48 Hours
 
 <div class="wp-block-columns">
 <div class="wp-block-column" style="flex-basis:66.66%">
-<figure class="wp-block-image size-large"><img loading="lazy" width="699" height="465" src="https://cdn.discordapp.com/attachments/839867964497068032/844266294538010634/Screenshot_2021-05-14_165936.png" alt="" class="wp-image-318" srcset="https://cdn.discordapp.com/attachments/839867964497068032/844266294538010634/Screenshot_2021-05-14_165936.png 699w, https://cdn.discordapp.com/attachments/839867964497068032/844266294538010634/Screenshot_2021-05-14_165936.png 300w" sizes="(max-width: 699px) 100vw, 699px"></figure>
+<figure class="wp-block-image size-large"><img loading="lazy" width="699" height="465" src="https://cdn.discordapp.com/attachments/842453452018024449/851795087105327144/unknown.png" alt="" class="wp-image-318" srcset="https://cdn.discordapp.com/attachments/842453452018024449/851795087105327144/unknown.png 699w, https://cdn.discordapp.com/attachments/842453452018024449/851795087105327144/unknown.png 300w" sizes="(max-width: 699px) 100vw, 699px"></figure>
 </div>
 
 
