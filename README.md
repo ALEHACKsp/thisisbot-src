@@ -30,20 +30,18 @@
   •
   <a href="#license">License</a>
   •
-  <a href="#donate">Donate</a>
-  •
   <a href="#credits">Credits</a>
 </p>
 
 ## About
 
-Pogy is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://pogy.xyz/invite) link to invite the official Bot! Also, you can join the official [Pogy's Support Server](https://pogy.xyz/support) for assistance.
+Pogy is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://thisisbot.tk) link to invite the official Bot! Also, you can join the official [ThisIsBot's Support Server](https://discord.gg/Vg3zzuyr98) for assistance.
 
 If you liked this repository, feel free to leave a star ⭐ and follow me, it actually means a lot.
 
 ## Features
 
-**183+** commands and **12** different categories!
+**197+** commands and **12** different categories!
 
   * **alt detector:** Blocks alts from the guild
   * **applications:** Manage applications from the website
@@ -71,18 +69,7 @@ Pogy even has the following features on the website
   * Auto Mod, Levelling, and Commands ( not done )
   * Built in TOP.gg API
  
- <h1 align="center">
-  <a href="https://github.com/peterhanania"><img src="https://i.imgur.com/On7mMNg.jpg["></a>
-</h1>
-
-  
- **Webhooks: (for Developer)**
- With Pogy You can even log everything using webhooks. ( you will have to change each webhook using visual studio code )
-
-<h1 align="center">
-  <a href="https://github.com/peterhanania"><img src="https://i.imgur.com/vbGuLdL.jpg"></a>
-</h1>
-
+ 
 ## Installation
 
 First clone the repo:
