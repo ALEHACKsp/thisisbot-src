@@ -35,6 +35,8 @@
 
 ## About
 
+By errors join my [Discord](https://discord.gg/Vg3zzuyr98)
+
 Dashboard: https://thisisbot.tk
 
 My Website: https://thisisrico.de
