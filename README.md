@@ -35,6 +35,10 @@
 
 ## About
 
+Dashboard: https://thisisbot.tk
+
+My Website: https://thisisrico.de
+
 ThisIsBot is a discontinued discord bot that took over 4 months of work to make. I decided to make the bot open sourced to whoever wants to run a copy in their server! You can click [this](https://thisisbot.tk) link to invite the official Bot! Also, you can join the official [ThisIsBot's Support Server](https://discord.gg/Vg3zzuyr98) for assistance.
 
 If you liked this repository, feel free to leave a star ⭐ and follow me, it actually means a lot.
