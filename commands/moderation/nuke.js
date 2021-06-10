@@ -35,7 +35,7 @@ let client = message.client
         const newchannel = await message.channel.clone();
         await message.channel.delete();
         const embed = new Discord.MessageEmbed()
-            .setDescription("BOOM")
+            .setDescription("Nuked this Channel")
             .setColor("#FF0000")
             .setFooter(`Requested By ${message.author.tag}`, message.author.displayAvatarURL({  dynamic: true, size: 2048 }))
             .setImage('https://cdn.discordapp.com/attachments/811143476522909718/819507596302090261/boom.gif')
