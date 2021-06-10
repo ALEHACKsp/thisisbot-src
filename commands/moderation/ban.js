@@ -13,7 +13,7 @@ module.exports = class extends Command {
         description: 'Bans the specified user from your Discord server.',
         category: 'Moderation',
         usage: '<user> [reason]',
-        examples: [ 'ban @Rico Breaking the rules!' ],
+        examples: [ 'ban @ThisIsRico Breaking the rules!' ],
         guildOnly: true,
         botPermission: ['BAN_MEMBERS'],
         userPermission: ['BAN_MEMBERS'],
@@ -53,7 +53,11 @@ guildId: message.guild.id
 const language = require(`../../data/language/${guildDB.language}.json`)
 
 
-const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]) 
+let member = message.mentions.members.last() || message.guild.members.cache.get(args[0]);
+        
+        
+
+
 
 if (!member) {
   await client.users.fetch(args[0])
@@ -65,7 +69,7 @@ if (reason.length > 1024) reason = reason.slice(0, 1021) + '...';
     await message.guild.members.ban(u.id, { reason: `${reason} / Responsible user: ${message.author.tag}` })
     
   const embed = new MessageEmbed()
-.setDescription(`✔️ | **${u.tag}** ${language.banBan} ${logging && logging.moderation.include_reason === "true" ?`\n\n**Reason:** ${reason}`:``}`)
+.setDescription(`${client.emoji.success} | **${u.tag}** ${language.banBan} ${logging && logging.moderation.include_reason === "true" ?`\n\n**Reason:** ${reason}`:``}`)
 .setColor(client.color.green);
 
 message.channel.send(embed)
@@ -137,17 +141,17 @@ console.log(err)
 
 if (member.id === message.author.id)
 return message.channel.send( new MessageEmbed()
-.setDescription(`❌ | ${language.banYourselfError}`)
+.setDescription(`${client.emoji.fail} | ${language.banYourselfError}`)
 .setColor(client.color.red));
 
 if (member.roles.highest.position >= message.member.roles.highest.position)
 return message.channel.send( new MessageEmbed()
-.setDescription(`❌ | ${language.banHigherRole}`)
+.setDescription(`${client.emoji.fail} | ${language.banHigherRole}`)
 .setColor(client.color.red));
 
 if (!member.bannable)
 return message.channel.send(new MessageEmbed()
-.setDescription(`❌ | ${language.banBannable}`)
+.setDescription(`${client.emoji.fail} | ${language.banBannable}`)
 .setColor(client.color.red));
 
 let reason = args.slice(1).join(' ');
@@ -160,11 +164,11 @@ let dmEmbed;
 if(logging && logging.moderation.ban_action && logging.moderation.ban_message.toggle === "false" && logging.moderation.ban_action !== "1"){
 
   if(logging.moderation.ban_action === "2"){
-dmEmbed = `❌ You've been banned in **${message.guild.name}**`
+dmEmbed = `${message.client.emoji.fail} You've been banned in **${message.guild.name}**`
   } else if(logging.moderation.ban_action === "3"){
-dmEmbed = `❌ You've been banned in **${message.guild.name}**\n\n__**Reason:**__ ${reason}`
+dmEmbed = `${message.client.emoji.fail} You've been banned in **${message.guild.name}**\n\n__**Reason:**__ ${reason}`
   } else if(logging.moderation.ban_action === "4"){
-dmEmbed = `❌ You've been banned in **${message.guild.name}**\n\n__**Moderator:**__ ${message.author} **(${message.author.tag})**\n__**Reason:**__ ${reason}`
+dmEmbed = `${message.client.emoji.fail} You've been banned in **${message.guild.name}**\n\n__**Moderator:**__ ${message.author} **(${message.author.tag})**\n__**Reason:**__ ${reason}`
   }
 
 member.send(new MessageEmbed().setColor(message.client.color.red)
@@ -195,7 +199,7 @@ if(logging && logging.moderation.ban_message.toggle === "true" && logging.modera
     .replace(/{memberCount}/g, `${message.guild.memberCount}`)).catch(()=>{})
 }
 const embed = new MessageEmbed()
-.setDescription(`✔️ | **${member.user.tag}** ${language.banBan} ${logging && logging.moderation.include_reason === "true" ?`\n\n**Reason:** ${reason}`:``}`)
+.setDescription(`${client.emoji.success} | **${member.user.tag}** ${language.banBan} ${logging && logging.moderation.include_reason === "true" ?`\n\n**Reason:** ${reason}`:``}`)
 .setColor(client.color.green);
 
 
